@@ -1,3 +1,5 @@
+'use strict';
+
 var Custom = {};
 
 Custom.BaseView = require('./baseView');
