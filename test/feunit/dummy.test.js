@@ -1,9 +1,7 @@
 'use strict';
 
-describe('dummy', sandbox(function () {
-
-    it('runs tests', function () {
-        true.should.be.true;
+describe('A suite', function () {
+    it('contains spec with an expectation', function () {
+        expect(true).toBe(true);
     });
-
-}));
+});

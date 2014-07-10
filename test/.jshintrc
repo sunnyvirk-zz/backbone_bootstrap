@@ -14,7 +14,8 @@
         "should",
         "window",
         "sinon",
-        "mocha",
+        "jasmine",
+        "expect",
         "chai",
         "$"
     ],

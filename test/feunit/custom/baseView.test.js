@@ -2,7 +2,7 @@
 
 var BaseView = require('../../../src/js/custom/baseView');
 
-describe('custom/baseView', sandbox(function () {
+describe('custom/baseView', function () {
 
     var inst;
 
@@ -13,9 +13,9 @@ describe('custom/baseView', sandbox(function () {
         });
 
         it('has an render', function () {
-            inst.render.should.be.defined;
+            expect(inst.render).toBeDefined();
         });
 
     });
 
-}));
+});

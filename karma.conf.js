@@ -6,19 +6,15 @@ module.exports = function (config) {
 
       basePath: __dirname,
 
-      frameworks: ['mocha', 'browserify'],
+      frameworks: ['jasmine', 'browserify'],
 
       files: [
         'node_modules/jquery/dist/jquery.js',
         'node_modules/underscore/underscore.js',
         'node_modules/backbone/backbone.js',
-        'node_modules/chai/chai.js',
-        'node_modules/chai-jquery/chai-jquery.js',
         'node_modules/sinon/pkg/sinon.js',
-        'node_modules/sinon-chai/lib/sinon-chai.js',
-        'test/lib/sinon-sandbox.js',
-        'test/lib/mocha.config.js',
-
+        'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
+        'test/feunit/helpers/*.js',
         'test/feunit/**/*.test.js',
         'src/js/**/*.js'
       ],
